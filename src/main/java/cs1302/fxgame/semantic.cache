@@ -4,9 +4,16 @@
   :tables (list 
    (semanticdb-table "Driver.java"
     :major-mode 'jde-mode
-    :tags '(("cs1302.fxgame" package nil nil [2 24]) ("com.michaelcotterell.game.Game" include nil nil [26 64]) ("com.michaelcotterell.game.pong.PongGame" include nil nil [65 112]) ("javafx.application.Application" include nil nil [113 151]) ("javafx.stage.Stage" include nil nil [152 178]) ("Driver" type (:typemodifiers ("public") :superclasses "Application" :members (("start" function (:throws ("Exception") :typemodifiers ("public") :arguments (("primaryStage" variable (:type "Stage") (reparse-symbol formal_parameters) [259 277])) :type "void") (reparse-symbol class_member_declaration) [241 497]) ("main" function (:typemodifiers ("public" "static") :arguments (("args" variable (:type "String[]") (reparse-symbol formal_parameters) [540 553])) :type "void") (reparse-symbol class_member_declaration) [516 584])) :type "class") nil [180 595]))
+    :tags '(("cs1302.fxgame" package nil nil [2 24]) ("com.michaelcotterell.game.Game" include nil nil [26 64]) ("javafx.application.Application" include nil nil [65 103]) ("javafx.stage.Stage" include nil nil [104 130]) ("Driver" type (:typemodifiers ("public") :superclasses "Application" :members (("start" function (:throws ("Exception") :typemodifiers ("public") :arguments (("primaryStage" variable (:type "Stage") (reparse-symbol formal_parameters) [211 229])) :type "void") (reparse-symbol class_member_declaration) [193 449]) ("main" function (:typemodifiers ("public" "static") :arguments (("args" variable (:type "String[]") (reparse-symbol formal_parameters) [492 505])) :type "void") (reparse-symbol class_member_declaration) [468 536])) :type "class") nil [132 547]))
     :file "Driver.java"
-    :pointmax 607
+    :pointmax 559
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "TestGame.java"
+    :major-mode 'jde-mode
+    :tags '(("cs1302.fxgame" package nil nil [1 23]) ("com.michaelcotterell.game.Game" include nil nil [25 63]) ("com.michaelcotterell.game.GameTime" include nil nil [64 106]) ("javafx.scene.shape.Rectangle" include nil nil [107 143]) ("javafx.scene.text.Text" include nil nil [144 174]) ("javafx.stage.Stage" include nil nil [175 201]) ("TestGame" type (:typemodifiers ("public") :superclasses "Game" :members (("bg" variable (:typemodifiers ("private") :type "Rectangle") (reparse-symbol class_member_declaration) [285 381]) ("text" variable (:typemodifiers ("private") :type "Text") (reparse-symbol class_member_declaration) [424 558]) ("TestGame" function (:constructor-flag t :typemodifiers ("public") :arguments (("stage" variable (:type "Stage") (reparse-symbol formal_parameters) [669 680]))) (reparse-symbol class_member_declaration) [653 793]) ("update" function (:typemodifiers ("public") :arguments (("game" variable (:type "Game") (reparse-symbol formal_parameters) [844 853]) ("gameTime" variable (:type "GameTime") (reparse-symbol formal_parameters) [855 872])) :type "void") (reparse-symbol class_member_declaration) [825 1378])) :type "class") nil [203 1391]))
+    :file "TestGame.java"
+    :pointmax 1405
     )
    )
   :file "semantic.cache"

@@ -130,7 +130,10 @@ to do so, in order to make your game. Using the engine relies on the programmer
 extending the abstract 
 [<code>Game</code>](http://cobweb.cs.uga.edu/~mec/fxgame/com/michaelcotterell/game/Game.html)
 class and implemeting the [<code>update</code>](http://cobweb.cs.uga.edu/~mec/fxgame/com/michaelcotterell/game/Updateable.html#update-com.michaelcotterell.game.Game-com.michaelcotterell.game.GameTime-) 
-method. Here is an example of a small game that is written using the engine:
+method. The engine abstracts all the details of running the game loop.
+Anything that is put in the <code>update</code> method is automatically
+executed once per iteration of the game loop after the game starts.
+Here is an example of a small game that is written using the engine:
 
 ```java
 import com.michaelcotterell.game.Game;
@@ -145,20 +148,20 @@ public class TestGame extends Game {
          setFill(Color.BLACK); 
     }};
 
-    private Text time = new Text() {{
+    private Text text = new Text() {{
          setTranslateX(10);
          setTranslateY(20);
          setFill(Color.YELLOWGREEN);
     }};
 
     public TestGame(Stage stage) {
-        super(stage, "Test", 60, 640, 480);
+        super(stage, "TestGame", 60, 640, 480);
         getSceneNodes().getChildren().addAll(bg, text);
     } // TestGame
 
     @Override
     public void update(Game game, GameTime gameTime) {
-        text.setText("Hello " + gameTime);
+        text.setText("Hello " + gameTime.getElapsedGameTime());
         if (game.getKeyManager().isKeyPressed(KeyCode.UP)) text.setTranslateY(text.getTranslateY() - 4);
         if (game.getKeyManager().isKeyPressed(KeyCode.DOWN)) text.setTranslateY(text.getTranslateY() + 4);
         if (game.getKeyManager().isKeyPressed(KeyCode.LEFT)) text.setTranslateX(text.getTranslateX() - 4);
