@@ -4,6 +4,8 @@ This repository contains skeleton code for a project or assignment in Michael E.
 Cotterell's CSCI 1302 class at the University of Georgia. Please read the 
 entirety of this file before beginning your project.
 
+This project is due on Monday 2014-04-21 @ 11:55 PM.
+
 ## Academic Honesty
 
 You implicitly agree to Academic Honesty policy as outlined in the course 
@@ -72,6 +74,7 @@ Every time a brick enters the "dead" state, the player earns 1 point.
 
 ## Project Tasks
 
+This project is due on Monday 2014-04-21 @ 11:55 PM.
 Before you submit your project, you need to perform the following tasks:
 
 1. (20 points) Design your game's GUI interface. You can use 
