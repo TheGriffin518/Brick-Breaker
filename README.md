@@ -138,6 +138,8 @@ Here is an example of a small game that is written using the engine:
 ```java
 import com.michaelcotterell.game.Game;
 import com.michaelcotterell.game.GameTime;
+import javafx.scene.input.KeyCode;
+import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
@@ -161,7 +163,7 @@ public class TestGame extends Game {
 
     @Override
     public void update(Game game, GameTime gameTime) {
-        text.setText("Hello " + gameTime.getElapsedGameTime());
+        text.setText("Hello " + gameTime.getTotalGameTime());
         if (game.getKeyManager().isKeyPressed(KeyCode.UP)) text.setTranslateY(text.getTranslateY() - 4);
         if (game.getKeyManager().isKeyPressed(KeyCode.DOWN)) text.setTranslateY(text.getTranslateY() + 4);
         if (game.getKeyManager().isKeyPressed(KeyCode.LEFT)) text.setTranslateX(text.getTranslateX() - 4);
@@ -198,7 +200,12 @@ public class Driver extends Application {
 } // Driver
 ```
 
-The API documentation for this game engine can be found here: http://cobweb.cs.uga.edu/~mec/fxgame/
+### API Documentation
+
+The API documentation for this game engine can be found 
+[here](http://cobweb.cs.uga.edu/~mec/fxgame/). In particular, pay attention
+to the methods that are available to you in the <code>Game</code>
+class. 
 
 ## Build System
 
