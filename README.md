@@ -80,8 +80,9 @@ Before you submit your project, you need to perform the following tasks:
 1. (20 points) Design your game's GUI interface. You can use 
    a mock-up tool such as [Creatively](http://creately.com/Online-UI-Mockups-and-Wireframes) 
    or [Pencil](http://pencil.evolus.vn/) (or similar) to make this 
-   easier. You will include your mockups in a file called <code>MOCKUP.md</code> (you'll
-   need to create this file). Here is the point breakdown:
+   easier. You will include your mockups in a file called <code>MOCKUP.md</code> (a 
+   blank version of this file is already created for you).
+   Here is the point breakdown:
   * (8 points) Four mock-up images that show the game in different scenarios (e.g., 
     before game starts, durring game, game over, and one other).
   * (8 points) Include explanations for the design of each image.
