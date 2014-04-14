@@ -1,0 +1,15 @@
+;; Object fxgame/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "fxgame/"
+  :tables (list 
+   (semanticdb-table "Driver.java"
+    :major-mode 'jde-mode
+    :tags '(("cs1302.fxgame" package nil nil [2 24]) ("com.michaelcotterell.game.Game" include nil nil [26 64]) ("com.michaelcotterell.game.pong.PongGame" include nil nil [65 112]) ("javafx.application.Application" include nil nil [113 151]) ("javafx.stage.Stage" include nil nil [152 178]) ("Driver" type (:typemodifiers ("public") :superclasses "Application" :members (("start" function (:throws ("Exception") :typemodifiers ("public") :arguments (("primaryStage" variable (:type "Stage") (reparse-symbol formal_parameters) [259 277])) :type "void") (reparse-symbol class_member_declaration) [241 497]) ("main" function (:typemodifiers ("public" "static") :arguments (("args" variable (:type "String[]") (reparse-symbol formal_parameters) [540 553])) :type "void") (reparse-symbol class_member_declaration) [516 584])) :type "class") nil [180 595]))
+    :file "Driver.java"
+    :pointmax 607
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0beta3"
+  :semanticdb-version "2.0beta3"
+  )
