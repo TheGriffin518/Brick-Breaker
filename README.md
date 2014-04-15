@@ -28,6 +28,10 @@ The games you can choose from are the following:
  - [Tetris](http://en.wikipedia.org/wiki/Tetris)
  - [Breakout](http://en.wikipedia.org/wiki/Breakout_clone)
 
+The pictures presented in this README file are just examples. Your game
+does not have to look exactly like the pictures. In fact, you get to
+design what the GUI and game components look like.
+
 ## Option 1 - Tetris
 
 Tetriminos are game pieces shaped like tetrominoes, geometric shapes composed of
