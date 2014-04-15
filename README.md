@@ -144,6 +144,11 @@ run and debug your program over SSH. Therefore, you may develop your game
 on your own computer so long as you make sure that the final product
 compiles on Nike using SBT.
 
+Note: Since we are using Java 7, you'll need to make sure that you have your
+platform-dependent <code>jfxrt.jar</code> file on your program's classpath.
+If you develop on Nike (or any 64 bit Linux platform), then a version of this
+JAR file is already included in the project's <code>lib</code> directory.
+
 If any changes are made to the project description or skeleton code, they will
 be announced in class. In order to incorporate such changes into your code, you 
 need only do a <code>git pull</code>.
