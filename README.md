@@ -76,6 +76,14 @@ his or her paddle more than 3 times and loses.
 Scoring is based on the number of bricks that have entered the "dead" state.
 Every time a brick enters the "dead" state, the player earns 1 point.
 
+## Either Option
+
+Whichever game you choose, you need to incorporate gameplay instructions
+into your GUI. Be creative about how to do this. Also, be sure to
+document what the instructions for your game are. In particular,
+please include information on what buttons to press in order to play
+your game.
+
 ## Project Tasks
 
 This project is due on Monday 2014-04-28 @ 11:55 PM.
@@ -110,6 +118,10 @@ Before you submit your project, you need to perform the following tasks:
    Author: YOUR NAME (LAST 3 DIGITS OF 810 NUMBER HERE)
 
    [If you did any of the exra credit then please indicate that here.]
+
+   # Gameplay Instructions
+
+   [Provide gameplay instructions here. This is important.]
    ```
 
 ### Extra Credit Tasks
