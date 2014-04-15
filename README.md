@@ -4,7 +4,7 @@ This repository contains skeleton code for a project or assignment in Michael E.
 Cotterell's CSCI 1302 class at the University of Georgia. Please read the 
 entirety of this file before beginning your project.
 
-This project is due on Monday 2014-04-21 @ 11:55 PM.
+This project is due on Monday 2014-04-28 @ 11:55 PM.
 
 ## Academic Honesty
 
@@ -74,7 +74,7 @@ Every time a brick enters the "dead" state, the player earns 1 point.
 
 ## Project Tasks
 
-This project is due on Monday 2014-04-21 @ 11:55 PM.
+This project is due on Monday 2014-04-28 @ 11:55 PM.
 Before you submit your project, you need to perform the following tasks:
 
 1. (20 points) Design your game's GUI interface. You can use 
@@ -107,6 +107,12 @@ Before you submit your project, you need to perform the following tasks:
 
    [If you did any of the exra credit then please indicate that here.]
    ```
+
+### Extra Credit Tasks
+
+ 1. (10 points) Add an animated intro to your game (animated using the game loop).
+    When your application starts, you should display some cool graphics, the 
+    title of your game, your name, and some blinking "Press Enter" text.
 
 ## Resources
 
