@@ -6,6 +6,11 @@ entirety of this file before beginning your project.
 
 This project is due on Monday 2014-04-28 @ 11:55 PM.
 
+## Updates
+
+ * 2014-04-16 - Changes have been made to the descriptions for both Tetris
+   and Breaker. Please reread those sections carefully.
+
 ## Academic Honesty
 
 You implicitly agree to Academic Honesty policy as outlined in the course 
@@ -53,17 +58,25 @@ When a line is cleared the user earns 1 point. In general, when more than one
 line is cleared by a single Tetrimino, the user earns 2^(x-1) points where x 
 is the number of lines cleared.
 
+Your implementation of this game should have a mechanism whereby the game
+increases in difficulty over time. The reccommended way of doing this is
+to have levels. The level of the game increases after a certain number
+of lines are cleared. Each level should cause the tetriminos to fall at
+a faster rate than at the previous level.
+
 ## Option 2 - Breakout
 
 A Breakout game is a sub-class of the "bat-and-ball" game genre. The genre gets 
 its name by the games being based around the dynamics of a player-controlled 
 paddle which hits a ball towards a wall of blocks or similar objects, that the 
 player chips away at with the ball as part of the main gameplay. In this version
-of Breakout, the bricks will have three different states: untouched, broken,
-and dead. When a brick is first placed on the screen, it will be in the
+of Breakout, the bricks will have four different states: untouched, broken, really
+broken, and dead. When a brick is first placed on the screen, it will be in the
 "untouched" state. The first time the ball hits the brick, it will go into the 
 "broken" state. This state should be visually different from the "untouched"
-state. The second time the ball hits the brick, it will go into the "dead"
+state. The second time the ball hits the brick, it will go into the "really broken"
+state and should be visibly different from the "broken" state. Finally, the
+third time the ball hits the brick, it will go into the "dead"
 state and should be removed from the screen. 
 
 ![Breakout](http://imgur.com/uZGP1DF.jpg "Breakout")
@@ -71,10 +84,17 @@ state and should be removed from the screen.
 The game will start with a number of rows of bricks being displayed. The
 game continues until either the player clears all the bricks (causes all them
 to enter the "dead" state) and wins or the player misses the ball with
-his or her paddle more than 3 times and loses.
+his or her paddle more than 3 times and loses. That is, the player
+starts out with three lives.
 
 Scoring is based on the number of bricks that have entered the "dead" state.
 Every time a brick enters the "dead" state, the player earns 1 point.
+
+Your implementation of this game should have a mechanism whereby the game
+increases in difficulty over time. The reccommended way of doing this is
+to have levels. The level of the game increases after a certain number
+of bricks are cleared. Each level should grant the player an additional
+life and should cause the speed of the ball to increase.
 
 ## Either Option
 
