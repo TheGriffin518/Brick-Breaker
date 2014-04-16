@@ -81,9 +81,11 @@ state and should be removed from the screen.
 
 ![Breakout](http://imgur.com/uZGP1DF.jpg "Breakout")
 
-The game will start with a number of rows of bricks being displayed. The
-game continues until either the player clears all the bricks (causes all them
-to enter the "dead" state) and wins or the player misses the ball with
+The game will start with at least 4 rows equilly spaced bricks being displayed
+in atleast 6 columns. 
+The game continues until either the player clears all the bricks (causes all them
+to enter the "dead" state) and continues to the next level 
+or the player misses the ball with
 his or her paddle more than 3 times and loses. That is, the player
 starts out with three lives.
 
@@ -92,9 +94,10 @@ Every time a brick enters the "dead" state, the player earns 1 point.
 
 Your implementation of this game should have a mechanism whereby the game
 increases in difficulty over time. The reccommended way of doing this is
-to have levels. The level of the game increases after a certain number
-of bricks are cleared. Each level should grant the player an additional
-life and should cause the speed of the ball to increase.
+to have levels. The level of the game increases after all of the bricks
+of bricks are cleared. Each level should redraw the bricks, 
+grant the player an additional life and should cause the speed of the ball 
+to increase.
 
 ## Either Option
 
