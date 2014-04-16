@@ -9,7 +9,7 @@ This project is due on Monday 2014-04-28 @ 11:55 PM.
 ## Updates
 
  * 2014-04-16 - Changes have been made to the descriptions for both Tetris
-   and Breaker. Please reread those sections carefully.
+   and Breakout. Please reread those sections carefully.
 
 ## Academic Honesty
 
