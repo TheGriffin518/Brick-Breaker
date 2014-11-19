@@ -6,11 +6,6 @@ entirety of this file before beginning your project.
 
 This project is due on Monday 2014-04-28 @ 11:55 PM.
 
-## Updates
-
- * 2014-04-16 - Changes have been made to the descriptions for both Tetris
-   and Breakout. Please reread those sections carefully.
-
 ## Academic Honesty
 
 You implicitly agree to Academic Honesty policy as outlined in the course 
@@ -109,7 +104,7 @@ your game.
 
 ## Project Tasks
 
-This project is due on Monday 2014-04-28 @ 11:55 PM.
+This project is due on Tuesday 2014-12-09 @ 11:55 PM.
 Before you submit your project, you need to perform the following tasks:
 
 1. (20 points) Design your game's GUI interface. You can use 
@@ -166,11 +161,6 @@ Because of this, you will more than likely encounter a lot of lag when trying to
 run and debug your program over SSH. Therefore, you may develop your game
 on your own computer so long as you make sure that the final product
 compiles on Nike using SBT.
-
-Note: Since we are using Java 7, you'll need to make sure that you have your
-platform-dependent <code>jfxrt.jar</code> file on your program's classpath.
-If you develop on Nike (or any 64 bit Linux platform), then a version of this
-JAR file is already included in the project's <code>lib</code> directory.
 
 If any changes are made to the project description or skeleton code, they will
 be announced in class. In order to incorporate such changes into your code, you 
@@ -295,7 +285,7 @@ the following command, replacing the email address with your email address:
 ## Questions
 
 If you have any questions, please email them to Michael E. Cotterell at 
-<code>mepcotterell+1302@gmail.com</code>
+<code>mepcott@uga.edu</code>
 
 ## Frequently Asked Questions
 
