@@ -4,7 +4,9 @@ This repository contains skeleton code for a project or assignment in Michael E.
 Cotterell's CSCI 1302 class at the University of Georgia. Please read the 
 entirety of this file before beginning your project.
 
-This project is due on Monday 2014-04-28 @ 11:55 PM.
+**This project is due on Wednesday 2014-04-29 @ 11:55 PM. Since this is
+the day before the Final Exam, there will be no extensions for this
+project.**
 
 ## Academic Honesty
 
@@ -25,39 +27,48 @@ your project (following a few guidelines).
 
 The games you can choose from are the following:
 
- - [Tetris](http://en.wikipedia.org/wiki/Tetris)
+ - [Space Invaders](http://en.wikipedia.org/wiki/Space_Invaders)
  - [Breakout](http://en.wikipedia.org/wiki/Breakout_clone)
 
 The pictures presented in this README file are just examples. Your game
 does not have to look exactly like the pictures. In fact, you get to
 design what the GUI and game components look like.
 
-## Option 1 - Tetris
+## Option 1 - Space Invaders
 
-Tetriminos are game pieces shaped like tetrominoes, geometric shapes composed of
-four square blocks each. A random sequence of Tetriminos fall down the playing 
-field (a rectangular vertical shaft, called the "well" or "matrix"). The 
-objective of the Tetris game is to manipulate these Tetriminos, by moving each 
-one sideways and rotating it by 90 degree units, with the aim of creating a 
-horizontal line of ten blocks without gaps. When such a line is created, it 
-disappears, and any block above the deleted line will fall. Here are the seven 
-one-sided Tetriminos in their Tetris Worlds colors. Top row, left to right: I,
- J, L, O. Bottom row: S, T, Z.
+Space Invaders is a two-dimensional fixed shooter game in which the player
+controls a laser cannon by moving it horizontally across the bottom of the
+screen and firing at descending aliens (space invaders). The aim is to defeat
+the rows of aliens. The player defeats an alien, and earns points, by shooting
+it with the laser cannon.
 
-![Tetriminos](http://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Tetrominoes_IJLO_STZ_Worlds.svg/360px-Tetrominoes_IJLO_STZ_Worlds.svg.png "Tetriminos")
+The aliens attempt to destroy the cannon by firing at it while they approach
+the bottom of the screen. If they reach the bottom, the alien invasion
+is successful and the game ends.
 
-The game ends when blocks are stacked to the top of the "well" and there is is 
-no room for a new Tetrimino to fall.
+The laser cannon is partially protected by several stationary defense
+bunkers that are gradually destroyed by a numerous amount of blasts from the
+aliens or player.
 
-When a line is cleared the user earns 1 point. In general, when more than one 
-line is cleared by a single Tetrimino, the user earns 2^(x-1) points where x 
-is the number of lines cleared.
+![Space Invaders](http://imgur.com/sXBK1Dk)
+
+### Game Setup
+
+The game must start with five rows of eleven aliens. The number of defense
+bunkers should be 
+
+### Scoring
+
+
+
+### Level Mechanism
 
 Your implementation of this game should have a mechanism whereby the game
 increases in difficulty over time. The reccommended way of doing this is
 to have levels. The level of the game increases after a certain number
-of lines are cleared. Each level should cause the tetriminos to fall at
-a faster rate than at the previous level.
+of enemies are cleared. Each level should cause the space invaders to move
+at a faster rate than at the previous level. If all enemies are cleared,
+a new wave should appear, optionally restoring the defense bunkers.
 
 ## Option 2 - Breakout
 
@@ -76,6 +87,8 @@ state and should be removed from the screen.
 
 ![Breakout](http://imgur.com/uZGP1DF.jpg "Breakout")
 
+### Game Setup
+
 The game will start with at least 4 rows equilly spaced bricks being displayed
 in atleast 6 columns. 
 The game continues until either the player clears all the bricks (causes all them
@@ -84,8 +97,12 @@ or the player misses the ball with
 his or her paddle more than 3 times and loses. That is, the player
 starts out with three lives.
 
+### Scoring
+
 Scoring is based on the number of bricks that have entered the "dead" state.
 Every time a brick enters the "dead" state, the player earns 1 point.
+
+### Level Mechanism
 
 Your implementation of this game should have a mechanism whereby the game
 increases in difficulty over time. The reccommended way of doing this is
@@ -120,7 +137,7 @@ Before you submit your project, you need to perform the following tasks:
     what you've described in your mock-ups. 
 2. (60 points) Implement the GUI and the game logic. Here is the point breakdown:
   * (20 points) The UI looks similar to the mock-ups and is functional.
-  * (20 points) The game keeps score as described by this README file.
+  * (20 points) The game keeps score as described by this <code>README.md</code> file.
   * (20 points) Game does not crash. If any errors occur, a dialog box or similar 
     should appear to indicates what the problem was.
 3. (20 points) Document Everything. Here is the breakdown:
@@ -133,7 +150,7 @@ Before you submit your project, you need to perform the following tasks:
    ```markdown
    # Project Submission
 
-   Author: YOUR NAME (LAST 3 DIGITS OF 810 NUMBER HERE)
+   Author: YOUR NAME (LAST 3 DIGITS OF 810/811 NUMBER HERE)
 
    [If you did any of the exra credit then please indicate that here.]
 
@@ -146,7 +163,10 @@ Before you submit your project, you need to perform the following tasks:
 
  1. (10 points) Add an animated intro to your game (animated using the game loop).
     When your application starts, you should display some cool graphics, the 
-    title of your game, your name, and some blinking "Press Enter" text.
+    title of your game, your name, and some blinking "Press Enter" text. One way
+    to accomplish this might be to place your scene nodes into different
+    [<code>Group</code>](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/Group.html) objects,
+    then switch out which group is in the scene, depending on the state of your game.
 
 ## Resources
 
