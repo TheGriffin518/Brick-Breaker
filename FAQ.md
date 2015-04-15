@@ -53,7 +53,7 @@ do something like the following:
 ```java
 public MyGame(Stage stage) {
     super(stage, "MyGame", 60, 640, 480);
-    getScene().onKeyPressed(this::handler);
+    getScene().addEventHandler(KeyEvent.KEY_PRESSED, this::handler);
     // rest of constructor code
 } // MyGame
 ```
