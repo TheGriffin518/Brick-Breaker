@@ -50,7 +50,7 @@ The laser cannon is partially protected by several stationary defense
 bunkers that are gradually destroyed by a numerous amount of blasts from the
 aliens or player.
 
-![Space Invaders](http://imgur.com/sXBK1Dk)
+![Space Invaders](http://imgur.com/sXBK1Dk.png)
 
 ### Game Setup
 
