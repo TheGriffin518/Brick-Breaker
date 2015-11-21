@@ -1,11 +1,11 @@
 # CSCI 1302 - FXGame (cs1302-fxgame)
 
-This repository contains skeleton code for a project or assignment in Michael E. 
-Cotterell's CSCI 1302 class at the University of Georgia. Please read the 
+This repository contains skeleton code for a project or assignment in  
+the CSCI 1302 class at the University of Georgia. Please read the 
 entirety of this file before beginning your project.
 
-**This project is due on Wednesday 2014-04-29 @ 11:55 PM. Since this is
-the day before the Final Exam, there will be no extensions for this
+**This project is due on Tuesday 2015-12-08 @ 11:55 PM. Since this is
+the day before Reading Day; there will be no extensions for this
 project.**
 
 ## Academic Honesty
@@ -297,10 +297,16 @@ In order to clean your project (remove compiled code), use the following command
 
 You will be submitting your project via <code>nike</code>. Make sure your 
 work is on <code>nike.cs.uga.edu</code> in a directory called 
-<code>FirstName-LastName-fxgame</code>, and, from within the parent directory, 
-execute the following command:
+<code>FirstName-LastName-fxgame</code>, and, from within the parent directory,
+execute the following command, depending on which section you are in:
 
-    $ submit FirstName-LastName-fxgame cs1302b
+### Supa' Mike's (Cotterell's) Section
+
+    $ submit LastName-FirstName-p2 cs1302a
+
+### Alothman's Section
+
+    $ submit LastName-FirstName-p2 cs1302b
 
 It is also a good idea to email a copy to yourself. To do this, simply execute 
 the following command, replacing the email address with your email address:
