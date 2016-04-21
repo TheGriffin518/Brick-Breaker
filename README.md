@@ -4,7 +4,7 @@ This repository contains skeleton code for a project or assignment in
 the CSCI 1302 class at the University of Georgia. Please read the 
 entirety of this file before beginning your project.
 
-**This project is due on Friday 2016-05-05 @ 11:59 PM.**
+**This project is due on Friday 2016-05-06 @ 11:59 PM.**
 
 ## Academic Honesty
 
