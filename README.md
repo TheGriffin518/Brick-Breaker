@@ -4,14 +4,12 @@ This repository contains skeleton code for a project or assignment in
 the CSCI 1302 class at the University of Georgia. Please read the 
 entirety of this file before beginning your project.
 
-**This project is due on Tuesday 2015-12-08 @ 11:55 PM. Since this is
-the day before Reading Day; there will be no extensions for this
-project.**
+**This project is due on Friday 2016-05-05 @ 11:59 PM.**
 
 ## Academic Honesty
 
 You implicitly agree to Academic Honesty policy as outlined in the course 
-syllabus and course website (available at: http://cs.uga.edu/~mec/cs1302/).
+syllabus.
 
 In accordance with the notice above, I must caution you to **not** fork this
 repository on GitHub if you have an account. Doing so will more than likely make
@@ -178,7 +176,9 @@ Before you submit your project, you need to perform the following tasks:
 
 The files for this project are hosted Github using <code>git</code>. They can be
 retrieved by cloning the repository found at 
-<code>git://github.com/mepcotterell-cs1302/cs1302-fxgame.git</code>. 
+<code>git://github.com/mepcotterell-cs1302/cs1302-fxgame.git</code>.
+
+    $ git clone git://github.com/mepcotterell-cs1302/cs1302-fxgame.git LastName1-LastName2-fxgame
 
 Although I usually suggest developing directly on <code>nike.cs.uga.edu</code> 
 since that is where your project will be run and tested when graded, this
@@ -297,22 +297,26 @@ In order to clean your project (remove compiled code), use the following command
 
 You will be submitting your project via <code>nike</code>. Make sure your 
 work is on <code>nike.cs.uga.edu</code> in a directory called 
-<code>FirstName-LastName-fxgame</code>, and, from within the parent directory,
+<code>LastName1-LastName2-fxgame</code>, and, from within the parent directory,
 execute the following command, depending on which section you are in:
 
-### Supa' Mike's (Cotterell's) Section
+### CRN 26245
 
-    $ submit LastName-FirstName-p2 cs1302a
+    $ submit LastName1-LastName2-fxgame cs1302a
 
-### Alothman's Section
+### CRN 26311
 
-    $ submit LastName-FirstName-p2 cs1302b
+    $ submit LastName1-LastName2-fxgame cs1302b
+
+### CRN 36424
+
+    $ submit LastName1-LastName2-fxgame cs1302c
 
 It is also a good idea to email a copy to yourself. To do this, simply execute 
 the following command, replacing the email address with your email address:
 
-    $ tar zcvf FirstName-LastName-fxgame.tar.gz FirstName-LastName-fxgame
-    $ mutt -s "[cs1302] fxgame" -a FirstName-LastName-fxgame.tar.gz -- your@email.com < /dev/null
+    $ tar zcvf LastName1-LastName2-fxgame.tar.gz LastName1-LastName2-fxgame
+    $ mutt -s "[cs1302] fxgame" -a LastName1-LastName2-fxgame.tar.gz -- your@email.com < /dev/null
 
 ## Questions
 
