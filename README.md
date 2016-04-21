@@ -1,6 +1,6 @@
 # CSCI 1302 - FXGame (cs1302-fxgame)
 
-This repository contains skeleton code for a project or assignment in  
+This repository contains skeleton code for a project or assignment in
 the CSCI 1302 class at the University of Georgia. Please read the 
 entirety of this file before beginning your project.
 
