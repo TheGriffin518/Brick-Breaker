@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="cs1302-fxgame"
+		module="cs1302-fxgame_2.10"
+		revision="1.0"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170222091635"/>
+	<dependencies>
+		<module organisation="com.novocode" name="junit-interface">
+			<revision name="0.8" status="release" pubdate="20120116103554" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/szeiger/junit-interface/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="0">
+				<license name="Two-clause BSD-style license" url="http://github.com/szeiger/junit-interface/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2757" time="0" location="/home/ugrads/jgriffin/.ivy2/cache/com.novocode/junit-interface/ivy-0.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/novocode/junit-interface/0.8/junit-interface-0.8.pom"/>
+				<caller organisation="cs1302-fxgame" name="cs1302-fxgame_2.10" conf="test, compile, runtime" rev="0.8" rev-constraint-default="0.8" rev-constraint-dynamic="0.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="junit-interface" type="jar" ext="jar" status="no" details="" size="15132" time="0" location="/home/ugrads/jgriffin/.ivy2/cache/com.novocode/junit-interface/jars/junit-interface-0.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/novocode/junit-interface/0.8/junit-interface-0.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-tools.testing" name="test-interface">
+			<revision name="0.5" status="release" pubdate="20100327193658" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<metadata-artifact status="no" details="" size="2210" time="0" location="/home/ugrads/jgriffin/.ivy2/cache/org.scala-tools.testing/test-interface/ivy-0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.pom"/>
+				<caller organisation="com.novocode" name="junit-interface" conf="default, compile, runtime, master" rev="0.5" rev-constraint-default="0.5" rev-constraint-dynamic="0.5" callerrev="0.8"/>
+				<artifacts>
+					<artifact name="test-interface" type="jar" ext="jar" status="no" details="" size="4407" time="0" location="/home/ugrads/jgriffin/.ivy2/cache/org.scala-tools.testing/test-interface/jars/test-interface-0.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.8.2" status="release" pubdate="20101005045127" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
+				<metadata-artifact status="no" details="" size="2420" time="0" location="/home/ugrads/jgriffin/.ivy2/cache/junit/junit/ivy-4.8.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.8.2/junit-4.8.2.pom"/>
+				<caller organisation="com.novocode" name="junit-interface" conf="default, compile, runtime, master" rev="4.8.2" rev-constraint-default="4.8.2" rev-constraint-dynamic="4.8.2" callerrev="0.8"/>
+				<artifacts>
+					<artifact name="junit" type="jar" ext="jar" status="no" details="" size="237344" time="0" location="/home/ugrads/jgriffin/.ivy2/cache/junit/junit/jars/junit-4.8.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/4.8.2/junit-4.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

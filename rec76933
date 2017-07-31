@@ -1,0 +1,539 @@
+Griffin-Hilmandolar-fxgame/:
+total 1284
+-rw-r--r--. 1 ugrad     320 May 10 10:34 build.sbt
+-rw-r--r--. 1 ugrad    2652 May 10 10:34 FAQ.md
+drwxr-xr-x. 2 ugrad    4096 May 10 10:34 lib
+-rw-r--r--. 1 ugrad    1695 May 10 10:34 MOCKUP.md
+-rw-r--r--. 1 ugrad    1178 May 10 10:34 MOCKUP.md~
+drwxr-xr-x. 3 ugrad    4096 May 10 10:34 project
+-rw-r--r--. 1 ugrad   15374 May 10 10:46 README.md
+-rw-r--r--. 1 ugrad   14880 May 10 10:34 README.md~
+-rw-r--r--. 1 ugrad   20167 May 10 10:39 rec75178
+-rw-r--r--. 1 ugrad       0 May 10 10:46 rec76933
+-rwxr-xr-x. 1 ugrad      51 May 10 10:34 sbt
+-rw-r--r--. 1 ugrad     118 May 10 10:34 sbt.bat
+-rw-r--r--. 1 ugrad 1216768 May 10 10:34 sbt-launch.jar
+drwxr-xr-x. 3 ugrad    4096 May 10 10:34 src
+drwxr-xr-x. 5 ugrad    4096 May 10 10:35 target
+
+Griffin-Hilmandolar-fxgame/lib:
+total 20
+-rw-r--r--. 1 ugrad 16481 May 10 10:34 fxgame.jar
+
+Griffin-Hilmandolar-fxgame/project:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:34 target
+
+Griffin-Hilmandolar-fxgame/project/target:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 config-classes
+
+Griffin-Hilmandolar-fxgame/project/target/config-classes:
+total 104
+-rw-r--r--. 1 ugrad   22 May 10 10:35 $17762fc851a88282f9dd.cache
+-rw-r--r--. 1 ugrad  328 May 10 10:35 $17762fc851a88282f9dd.class
+-rw-r--r--. 1 ugrad 2210 May 10 10:35 $17762fc851a88282f9dd$.class
+-rw-r--r--. 1 ugrad  902 May 10 10:35 $b67936dbd57163f3b9a6$$anonfun$$sbtdef$1.class
+-rw-r--r--. 1 ugrad   22 May 10 10:35 $b67936dbd57163f3b9a6.cache
+-rw-r--r--. 1 ugrad  727 May 10 10:35 $b67936dbd57163f3b9a6.class
+-rw-r--r--. 1 ugrad 1315 May 10 10:35 $b67936dbd57163f3b9a6$.class
+-rw-r--r--. 1 ugrad  947 May 10 10:35 $b9cdaec6c9f8d38841b1$$anonfun$$sbtdef$1.class
+-rw-r--r--. 1 ugrad   22 May 10 10:35 $b9cdaec6c9f8d38841b1.cache
+-rw-r--r--. 1 ugrad  405 May 10 10:35 $b9cdaec6c9f8d38841b1.class
+-rw-r--r--. 1 ugrad 1327 May 10 10:35 $b9cdaec6c9f8d38841b1$.class
+-rw-r--r--. 1 ugrad  947 May 10 10:35 $c1e2670b1b8cfbec5794$$anonfun$$sbtdef$1.class
+-rw-r--r--. 1 ugrad   22 May 10 10:35 $c1e2670b1b8cfbec5794.cache
+-rw-r--r--. 1 ugrad  405 May 10 10:35 $c1e2670b1b8cfbec5794.class
+-rw-r--r--. 1 ugrad 1491 May 10 10:35 $c1e2670b1b8cfbec5794$.class
+-rw-r--r--. 1 ugrad  892 May 10 10:35 $c80ff77de669e6ecf5e9$$anonfun$$sbtdef$1.class
+-rw-r--r--. 1 ugrad   22 May 10 10:35 $c80ff77de669e6ecf5e9.cache
+-rw-r--r--. 1 ugrad  405 May 10 10:35 $c80ff77de669e6ecf5e9.class
+-rw-r--r--. 1 ugrad 1318 May 10 10:35 $c80ff77de669e6ecf5e9$.class
+-rw-r--r--. 1 ugrad 1379 May 10 10:35 $cadef6b26672dd4555ca$$anonfun$$sbtdef$1.class
+-rw-r--r--. 1 ugrad   22 May 10 10:35 $cadef6b26672dd4555ca.cache
+-rw-r--r--. 1 ugrad  405 May 10 10:35 $cadef6b26672dd4555ca.class
+-rw-r--r--. 1 ugrad 1548 May 10 10:35 $cadef6b26672dd4555ca$.class
+-rw-r--r--. 1 ugrad   22 May 10 10:35 $fad7056d04bced15ab1a.cache
+-rw-r--r--. 1 ugrad  328 May 10 10:35 $fad7056d04bced15ab1a.class
+-rw-r--r--. 1 ugrad 2207 May 10 10:35 $fad7056d04bced15ab1a$.class
+
+Griffin-Hilmandolar-fxgame/src:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:34 main
+
+Griffin-Hilmandolar-fxgame/src/main:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:34 java
+
+Griffin-Hilmandolar-fxgame/src/main/java:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:34 cs1302
+
+Griffin-Hilmandolar-fxgame/src/main/java/cs1302:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:34 fxgame
+
+Griffin-Hilmandolar-fxgame/src/main/java/cs1302/fxgame:
+total 48
+-rw-r--r--. 1 ugrad    2 May 10 10:34 #Brick#
+-rw-r--r--. 1 ugrad 8086 May 10 10:34 BrickBreak.java
+-rw-r--r--. 1 ugrad 7979 May 10 10:34 BrickBreak.java~
+-rw-r--r--. 1 ugrad 1208 May 10 10:34 Brick.java
+-rw-r--r--. 1 ugrad  863 May 10 10:34 Brick.java~
+-rw-r--r--. 1 ugrad  560 May 10 10:34 Driver.java
+-rw-r--r--. 1 ugrad  558 May 10 10:34 Driver.java~
+-rw-r--r--. 1 ugrad 2559 May 10 10:34 semantic.cache
+-rw-r--r--. 1 ugrad 1489 May 10 10:34 TestGame.java
+-rw-r--r--. 1 ugrad 1491 May 10 10:34 TestGame.java~
+
+Griffin-Hilmandolar-fxgame/target:
+total 12
+drwxr-xr-x. 4 ugrad 4096 May 10 10:35 resolution-cache
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 scala-2.10
+drwxr-xr-x. 5 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/resolution-cache:
+total 8
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 cs1302-fxgame
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 reports
+
+Griffin-Hilmandolar-fxgame/target/resolution-cache/cs1302-fxgame:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 cs1302-fxgame_2.10
+
+Griffin-Hilmandolar-fxgame/target/resolution-cache/cs1302-fxgame/cs1302-fxgame_2.10:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 1.0
+
+Griffin-Hilmandolar-fxgame/target/resolution-cache/cs1302-fxgame/cs1302-fxgame_2.10/1.0:
+total 8
+-rw-r--r--. 1 ugrad  634 May 10 10:35 resolved.xml.properties
+-rw-r--r--. 1 ugrad 2023 May 10 10:35 resolved.xml.xml
+
+Griffin-Hilmandolar-fxgame/target/resolution-cache/reports:
+total 96
+-rw-r--r--. 1 ugrad   451 May 10 10:35 cs1302-fxgame-cs1302-fxgame_2.10-compile-internal.xml
+-rw-r--r--. 1 ugrad   442 May 10 10:35 cs1302-fxgame-cs1302-fxgame_2.10-compile.xml
+-rw-r--r--. 1 ugrad   439 May 10 10:35 cs1302-fxgame-cs1302-fxgame_2.10-docs.xml
+-rw-r--r--. 1 ugrad   443 May 10 10:35 cs1302-fxgame-cs1302-fxgame_2.10-optional.xml
+-rw-r--r--. 1 ugrad   441 May 10 10:35 cs1302-fxgame-cs1302-fxgame_2.10-plugin.xml
+-rw-r--r--. 1 ugrad   438 May 10 10:35 cs1302-fxgame-cs1302-fxgame_2.10-pom.xml
+-rw-r--r--. 1 ugrad   443 May 10 10:35 cs1302-fxgame-cs1302-fxgame_2.10-provided.xml
+-rw-r--r--. 1 ugrad   451 May 10 10:35 cs1302-fxgame-cs1302-fxgame_2.10-runtime-internal.xml
+-rw-r--r--. 1 ugrad   442 May 10 10:35 cs1302-fxgame-cs1302-fxgame_2.10-runtime.xml
+-rw-r--r--. 1 ugrad  7600 May 10 10:35 cs1302-fxgame-cs1302-fxgame_2.10-scala-tool.xml
+-rw-r--r--. 1 ugrad   442 May 10 10:35 cs1302-fxgame-cs1302-fxgame_2.10-sources.xml
+-rw-r--r--. 1 ugrad  4400 May 10 10:35 cs1302-fxgame-cs1302-fxgame_2.10-test-internal.xml
+-rw-r--r--. 1 ugrad  4356 May 10 10:35 cs1302-fxgame-cs1302-fxgame_2.10-test.xml
+-rw-r--r--. 1 ugrad  4371 May 10 10:35 ivy-report.css
+-rw-r--r--. 1 ugrad 20993 May 10 10:35 ivy-report.xsl
+
+Griffin-Hilmandolar-fxgame/target/scala-2.10:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 classes
+
+Griffin-Hilmandolar-fxgame/target/scala-2.10/classes:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 cs1302
+
+Griffin-Hilmandolar-fxgame/target/scala-2.10/classes/cs1302:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 fxgame
+
+Griffin-Hilmandolar-fxgame/target/scala-2.10/classes/cs1302/fxgame:
+total 64
+-rw-r--r--. 1 ugrad  623 May 10 10:35 BrickBreak$1.class
+-rw-r--r--. 1 ugrad  966 May 10 10:35 BrickBreak$2.class
+-rw-r--r--. 1 ugrad  623 May 10 10:35 BrickBreak$3.class
+-rw-r--r--. 1 ugrad  984 May 10 10:35 BrickBreak$4.class
+-rw-r--r--. 1 ugrad  563 May 10 10:35 BrickBreak$5.class
+-rw-r--r--. 1 ugrad  563 May 10 10:35 BrickBreak$6.class
+-rw-r--r--. 1 ugrad  556 May 10 10:35 BrickBreak$7.class
+-rw-r--r--. 1 ugrad  787 May 10 10:35 BrickBreak$8.class
+-rw-r--r--. 1 ugrad 6529 May 10 10:35 BrickBreak.class
+-rw-r--r--. 1 ugrad 1080 May 10 10:35 BrickBreak$gameMode.class
+-rw-r--r--. 1 ugrad 1017 May 10 10:35 Brick.class
+-rw-r--r--. 1 ugrad  801 May 10 10:35 Driver.class
+-rw-r--r--. 1 ugrad  553 May 10 10:35 TestGame$1.class
+-rw-r--r--. 1 ugrad  637 May 10 10:35 TestGame$2.class
+-rw-r--r--. 1 ugrad 2152 May 10 10:35 TestGame.class
+
+Griffin-Hilmandolar-fxgame/target/streams:
+total 12
+drwxr-xr-x. 14 ugrad 4096 May 10 10:35 compile
+drwxr-xr-x.  9 ugrad 4096 May 10 10:35 $global
+drwxr-xr-x. 10 ugrad 4096 May 10 10:35 runtime
+
+Griffin-Hilmandolar-fxgame/target/streams/compile:
+total 48
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 compile
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 copyResources
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 dependencyClasspath
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 exportedProducts
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 externalDependencyClasspath
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 incCompileSetup
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 internalDependencyClasspath
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 managedClasspath
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 run
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 unmanagedClasspath
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 unmanagedJars
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/compile:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/compile/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/compile/$global/streams:
+total 8
+-rw-r--r--. 1 ugrad 627 May 10 10:35 export
+-rw-r--r--. 1 ugrad 773 May 10 10:35 out
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/copyResources:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/copyResources/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/copyResources/$global/streams:
+total 8
+-rw-r--r--. 1 ugrad 23 May 10 10:35 copy-resources
+-rw-r--r--. 1 ugrad 83 May 10 10:35 out
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/dependencyClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/dependencyClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/dependencyClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 59 May 10 10:35 export
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/exportedProducts:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/exportedProducts/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/exportedProducts/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 70 May 10 10:35 export
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/externalDependencyClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/externalDependencyClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/externalDependencyClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 59 May 10 10:35 export
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/$global:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/$global/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 discoveredMainClasses
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/$global/$global/discoveredMainClasses:
+total 4
+-rw-r--r--. 1 ugrad 26 May 10 10:36 data
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/incCompileSetup:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/incCompileSetup/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/incCompileSetup/$global/streams:
+total 36
+-rw-r--r--. 1 ugrad 33311 May 10 10:35 inc_compile_2.10
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/internalDependencyClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/internalDependencyClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/internalDependencyClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 1 May 10 10:35 export
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/managedClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/managedClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/managedClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 1 May 10 10:35 export
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/run:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/run/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/run/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 288 May 10 10:35 out
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/unmanagedClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/unmanagedClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/unmanagedClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 59 May 10 10:35 export
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/unmanagedJars:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/unmanagedJars/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/compile/unmanagedJars/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 59 May 10 10:35 export
+
+Griffin-Hilmandolar-fxgame/target/streams/$global:
+total 28
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 clean
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 dependencyPositions
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 ivyConfiguration
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 ivySbt
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 projectDescriptors
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 update
+
+Griffin-Hilmandolar-fxgame/target/streams/$global/clean:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/$global/clean/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/$global/clean/$global/streams:
+total 0
+-rw-r--r--. 1 ugrad 0 May 10 10:35 out
+
+Griffin-Hilmandolar-fxgame/target/streams/$global/dependencyPositions:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/$global/dependencyPositions/$global:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/$global/dependencyPositions/$global/streams:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 update_cache_2.10
+
+Griffin-Hilmandolar-fxgame/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10:
+total 8
+-rw-r--r--. 1 ugrad  74 May 10 10:35 input_dsp
+-rw-r--r--. 1 ugrad 146 May 10 10:35 output_dsp
+
+Griffin-Hilmandolar-fxgame/target/streams/$global/$global:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/$global/$global/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/$global/$global/$global/streams:
+total 0
+-rw-r--r--. 1 ugrad 0 May 10 10:35 out
+
+Griffin-Hilmandolar-fxgame/target/streams/$global/ivyConfiguration:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/$global/ivyConfiguration/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/$global/ivyConfiguration/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 172 May 10 10:35 out
+
+Griffin-Hilmandolar-fxgame/target/streams/$global/ivySbt:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/$global/ivySbt/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/$global/ivySbt/$global/streams:
+total 0
+-rw-r--r--. 1 ugrad 0 May 10 10:35 out
+
+Griffin-Hilmandolar-fxgame/target/streams/$global/projectDescriptors:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/$global/projectDescriptors/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/$global/projectDescriptors/$global/streams:
+total 0
+-rw-r--r--. 1 ugrad 0 May 10 10:35 out
+
+Griffin-Hilmandolar-fxgame/target/streams/$global/update:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/$global/update/$global:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/$global/update/$global/streams:
+total 28
+-rw-r--r--. 1 ugrad 20856 May 10 10:35 out
+drwxr-xr-x. 2 ugrad  4096 May 10 10:35 update_cache_2.10
+
+Griffin-Hilmandolar-fxgame/target/streams/$global/update/$global/streams/update_cache_2.10:
+total 20
+-rw-r--r--. 1 ugrad  1565 May 10 10:35 inputs
+-rw-r--r--. 1 ugrad 13630 May 10 10:35 output
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime:
+total 32
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 dependencyClasspath
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 exportedProducts
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 externalDependencyClasspath
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 fullClasspath
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 internalDependencyClasspath
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 managedClasspath
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 unmanagedClasspath
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 unmanagedJars
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime/dependencyClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime/dependencyClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime/dependencyClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 129 May 10 10:35 export
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime/exportedProducts:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime/exportedProducts/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime/exportedProducts/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 70 May 10 10:35 export
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime/externalDependencyClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime/externalDependencyClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime/externalDependencyClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 59 May 10 10:35 export
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime/fullClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime/fullClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime/fullClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 129 May 10 10:35 export
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime/internalDependencyClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime/internalDependencyClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime/internalDependencyClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 70 May 10 10:35 export
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime/managedClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime/managedClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime/managedClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 1 May 10 10:35 export
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime/unmanagedClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime/unmanagedClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime/unmanagedClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 59 May 10 10:35 export
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime/unmanagedJars:
+total 4
+drwxr-xr-x. 3 ugrad 4096 May 10 10:35 $global
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime/unmanagedJars/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 May 10 10:35 streams
+
+Griffin-Hilmandolar-fxgame/target/streams/runtime/unmanagedJars/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 59 May 10 10:35 export
+/home/ugrads/jgriffin/Griffin-Hilmandolar-fxgame/:/home/work/cs1302b

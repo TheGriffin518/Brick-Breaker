@@ -7,24 +7,18 @@
 ## Start of the Game
 
 ![Start of Game](http://imgur.com/6Y1gDeL)
-The prompt will be blinking to catch the user's attention and minimum detail to not distract the user.
 
 ## During Gameplay
 
 ![Gameplay](http://imgur.com/0LAdMF0)
-5 rows of 6 bricks to total 30 bricks per level. This shows the layout of the bricks in relation to the paddle.
-And how the bricks look after being broken.
 
 ## Beginning GamePlay
 
 ![Beginning GamePlay](http://imgur.com/XPJ26ST)
-This shows the layout of the bricks in relation to the paddle and the different states of the bricks. Green for
-full healt, yellow for half, and red for low.
 
 ## Game Loss State
 
 ![GameOver](http://imgur.com/ahRyBFh)
-This shows the user that they have lost. Only includes score and a message stating they have lost. 
 
 ## Differences in Mockup Compared to Actual 
 

@@ -1,6 +1,7 @@
 # Project Submission
 
-Author: James Griffin
+Author: James Griffin (037)
+Author: Jacob Hilmandolar ()
 
 # Gameplay Instructions
 
@@ -8,16 +9,11 @@ In order to play the game, press enter to start a new game. There will be a flas
 inform you also. After pressing enter to start a new game, the ball will be unmoving. In order to 
 have the ball to start moving, press the space key or alternatively you can wait 10 seconds and the 
 ball will start moving on its own. Use the left and right arrow keys to move the paddle to the left and to the 
-right respectively. The health of the bricks is represented by its color; Green means full health, yellow means half
-health, and red means low health. After each collision with the ball, the brick's state or health goes 
-down by one. If the brick is red and is then hit, the brick breaks and disappears. During the game, if
- at any time you wish to start a  new game, press the escape key.
+right respectively. During the game, if at any time you wish to start a  new game, press the escape key.
 
 The goal of the game is to break all of the bricks by intercepting the ball with the paddle and redirecting 
-the ball to collide with the bricks. At the start of each game, you are given a total of 3 lives or 4 chances. 
-Each brick has 3 levels of health represented by its color. Each brick requires 3 hits to be broken and on the
-third hit, the brick breaks. Your score is calculated by the number of bricks that you break. A life is loss if
-the ball passes by the paddle and collides with the bottom wall. In order to progress the game to the next level,
+the ball to collide with the bricks. At the start of each game, you are given a total of 3 lives or 4 chances. A life
+is loss if the ball passes by the paddle and collides with the bottom wall. In order to progress the game to the next level,
 all bricks most be destroyed. At the start of each new level, the bricks will reappear, but the ball's speed will increase and
 an extra life will be granted. There are a total of 3 levels to complete. Beat all 3 and you win the game. Good Luck!
 

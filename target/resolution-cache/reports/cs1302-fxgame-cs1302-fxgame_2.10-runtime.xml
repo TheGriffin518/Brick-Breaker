@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="cs1302-fxgame"
+		module="cs1302-fxgame_2.10"
+		revision="1.0"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170222091635"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>

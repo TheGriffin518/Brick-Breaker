@@ -9,7 +9,7 @@ public class Driver extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception { 
-        Game game = new BrickBreak(primaryStage);
+        Game game = new TestGame(primaryStage);
         primaryStage.setTitle(game.getTitle());
         primaryStage.setScene(game.getScene());
         primaryStage.show();

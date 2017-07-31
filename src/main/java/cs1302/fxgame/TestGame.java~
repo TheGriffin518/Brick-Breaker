@@ -34,7 +34,7 @@ public class TestGame extends Game {
     @Override
     public void update(Game game, GameTime gameTime) {
         text.setText("The time is " + gameTime.getTotalGameTime());
-        if (game.getKeyManager().isKeyPressed(KeyCode.UP) && text.getY() > 0) text.setTranslateY(text.getTranslateY() - 4);
+        if (game.getKeyManager().isKeyPressed(KeyCode.UP) && text.getX() < 630) text.setTranslateY(text.getTranslateY() - 4);
         if (game.getKeyManager().isKeyPressed(KeyCode.DOWN)) text.setTranslateY(text.getTranslateY() + 4);
         if (game.getKeyManager().isKeyPressed(KeyCode.LEFT)) text.setTranslateX(text.getTranslateX() - 4);
         if (game.getKeyManager().isKeyPressed(KeyCode.RIGHT)) text.setTranslateX(text.getTranslateX() + 4);
